@@ -7,7 +7,7 @@ const Header: React.FC = () => (
       <img src={viteLogo} className="logo" data-testid="vite-logo" alt="Vite logo" />
       <img src={reactLogo} className="logo react" data-testid="react-logo" alt="React logo" />
     </div>
-    <h2>Vite 5 + TS 5 + EsLint + Husky + Perttier </h2>
+    <h2>Vite 5 + TS 5 + EsLint + Husky + Perttier = ViteRC </h2>
   </>
 );
 
