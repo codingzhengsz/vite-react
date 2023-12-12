@@ -37,8 +37,8 @@ const ReadDocs: React.FC = () => (
       Testing Library
     </a>
     {' | '}
-    <a className="App-link" href="https://github.com/potreco/viterc" target="_blank" rel="noopener noreferrer">
-      Template repository
+    <a className="App-link" href="https://tailwindcss.com/docs/installation" target="_blank" rel="noopener noreferrer">
+      Tailwindcss docs
     </a>
   </p>
 );

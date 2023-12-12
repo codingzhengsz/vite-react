@@ -9,7 +9,16 @@ module.exports = {
     'airbnb-typescript',
     'eslint-config-prettier',
   ],
-  ignorePatterns: ['dist', '.eslintrc.cjs', 'vite.config.ts', 'vitest.config.ts', 'tests', '*.cjs'],
+  ignorePatterns: [
+    'dist',
+    '.eslintrc.cjs',
+    'vite.config.ts',
+    'vitest.config.ts',
+    'tests',
+    '*.cjs',
+    'postcss.config.js',
+    'tailwind.config.js',
+  ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     project: './tsconfig.json',

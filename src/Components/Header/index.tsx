@@ -3,7 +3,7 @@ import viteLogo from '@/Assets/vite.svg';
 
 const Header: React.FC = () => (
   <>
-    <div id="logos">
+    <div className="flex justify-center">
       <img src={viteLogo} className="logo" data-testid="vite-logo" alt="Vite logo" />
       <img src={reactLogo} className="logo react" data-testid="react-logo" alt="React logo" />
     </div>

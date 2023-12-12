@@ -15,6 +15,7 @@ const App = () => {
         </button>
       </div>
       <ReadDocs />
+      <p className="underline text-red-200">Tailwindcss configuration enabled.</p>
     </div>
   );
 };
