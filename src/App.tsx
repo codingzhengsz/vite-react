@@ -1,23 +1,12 @@
-import { useState } from 'react';
+import React from 'react';
+import { RouterProvider } from 'react-router-dom';
 import './App.css';
-import Header from '@/Components/Header';
-import ReadDocs from '@/Components/ReadTheDocs';
+import browserRouter from './Routes';
 
-const App = () => {
-  const [count, setCount] = useState(0);
-
-  return (
-    <div className="App">
-      <Header />
-      <div className="card">
-        <button type="button" onClick={() => setCount(count + 1)}>
-          count is {count}
-        </button>
-      </div>
-      <ReadDocs />
-      <p className="underline text-red-200">Tailwindcss configuration enabled.</p>
-    </div>
-  );
-};
+const App = () => (
+  <React.StrictMode>
+    <RouterProvider router={browserRouter} />
+  </React.StrictMode>
+);
 
 export default App;
