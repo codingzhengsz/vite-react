@@ -22,8 +22,6 @@
   },
   "devDependencies": {
     "@biomejs/biome": "1.5.3",
-    "@commitlint/cli": "^18.4.4",
-    "@commitlint/config-conventional": "^18.4.4",
     "@testing-library/jest-dom": "^6.2.0",
     "@testing-library/react": "^14.1.2",
     "@testing-library/user-event": "^14.5.2",
@@ -33,7 +31,6 @@
     "@typescript-eslint/parser": "^6.18.1",
     "@vitejs/plugin-react": "^4.2.1",
     "autoprefixer": "^10.4.16",
-    "eslint": "^8.56.0",
     "husky": "^8.0.3",
     "jsdom": "^23.2.0",
     "postcss": "^8.4.33",
