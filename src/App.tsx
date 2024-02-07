@@ -1,4 +1,3 @@
-import React from "react";
 import { Provider as ReduxStoreProvider } from "react-redux";
 import { RouterProvider } from "react-router-dom";
 import "./App.css";

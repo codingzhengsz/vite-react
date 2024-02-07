@@ -22,6 +22,7 @@
     "types": ["vitest/globals", "@testing-library/jest-dom"],
     "baseUrl": "./",
     "paths": {
+      "@": ["*", "src/*"],
       "@/Assets/*": ["*", "src/Assets/*"],
       "@/Components/*": ["*", "src/Components/*"]
     }
