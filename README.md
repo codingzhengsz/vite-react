@@ -12,8 +12,7 @@ Currently, two official plugins are available:
 - Vite 5 - Next Generation Frontend Tooling
 - React 18 - A JavaScript library for building user interfaces
 - TypeScript 5
-- EsLint
-- Prettier
+- BiomeJs
 - Husky
 - Vitest
 - Commitlint

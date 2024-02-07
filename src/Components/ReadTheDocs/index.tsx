@@ -29,29 +29,11 @@ const ReadDocs: React.FC = () => (
 		{" | "}
 		<a
 			className="App-link"
-			href="https://eslint.org/"
+			href="https://biomejs.dev/"
 			target="_blank"
 			rel="noopener noreferrer"
 		>
-			Eslint docs
-		</a>
-		{" | "}
-		<a
-			className="App-link"
-			href="https://github.com/airbnb/javascript"
-			target="_blank"
-			rel="noopener noreferrer"
-		>
-			Airbnb JS Style Guide
-		</a>
-		{" | "}
-		<a
-			className="App-link"
-			href="https://github.com/airbnb/javascript/tree/master/react"
-			target="_blank"
-			rel="noopener noreferrer"
-		>
-			Airbnb React Style Guide
+			TS Docs
 		</a>
 		{" | "}
 		<a
