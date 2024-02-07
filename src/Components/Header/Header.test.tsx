@@ -20,7 +20,7 @@ describe("Render the Header Component correctly", () => {
 	test("should render the title", async () => {
 		render(<Header />);
 
-		const header = await screen.findByText(/ViteRC/);
+		const header = await screen.findByText(/Vite-React/);
 
 		expect(header).toBeInTheDocument();
 	});

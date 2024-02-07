@@ -20,7 +20,7 @@ const Home: React.FC = () => {
 					Decrement
 				</button>
 			</div>
-			<section>
+			<section id="counterResult">
 				<p>count is: {count}</p>
 			</section>
 			<ReadDocs />
