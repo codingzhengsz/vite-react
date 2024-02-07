@@ -33,7 +33,7 @@ const ReadDocs: React.FC = () => (
 			target="_blank"
 			rel="noopener noreferrer"
 		>
-			TS Docs
+			BiomeJs
 		</a>
 		{" | "}
 		<a

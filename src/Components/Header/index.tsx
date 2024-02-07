@@ -17,7 +17,7 @@ const Header: React.FC = () => (
 				alt="React logo"
 			/>
 		</div>
-		<h2>Vite 5 + TS 5 + EsLint + Husky + Perttier = ViteRC </h2>
+		<h2>Vite 5 + TS 5 + Husky + BiomeJs = Vite-React</h2>
 	</>
 );
 
