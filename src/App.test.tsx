@@ -17,14 +17,12 @@ describe("Render the app correctly", () => {
 		const button = (await screen.findAllByRole("button"))[0];
 		const result = await screen.findByText(/count is/);
 
-
 		expect(button).toBeInTheDocument();
 		expect(button.innerHTML).toBe("Increment");
 
 		await user.click(button);
 		await user.click(button);
 		await user.click(button);
-
 
 		expect(result.innerHTML).toBe("count is: 3");
 	});

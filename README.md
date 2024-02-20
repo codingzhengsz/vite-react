@@ -16,3 +16,18 @@ Currently, two official plugins are available:
 - Husky
 - Vitest
 - Commitlint
+
+## Usage
+
+```
+pnpm dlx degit codingzhengsz/vite-react my-app
+
+cd my-app
+
+# Required if you want a repository and work with Git hooks
+git init
+
+pnpm install
+
+pnpm dev
+```
